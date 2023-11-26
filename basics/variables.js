@@ -18,3 +18,4 @@ console.table([accountID, accountEmail, accountPassword, accountCity, accountSta
 /* Prefer not to use VAR because of issue in block and functional variable */
 // console.table is used to print all values in bulk
 // It is not a good practice to assign a variable without defining its data type
+// Const value cannot be changed by the compiler
