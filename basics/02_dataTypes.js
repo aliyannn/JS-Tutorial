@@ -9,3 +9,5 @@
 // null => standalone value // empty value
 // undefined => value not assigned, yet!
 // symbol => unique
+
+// object
