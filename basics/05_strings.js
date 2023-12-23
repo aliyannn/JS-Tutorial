@@ -30,3 +30,16 @@ console.log(newString);
 
 const anotherString = gameName.slice(-7, 4);
 console.log(anotherString);
+
+const newStringOne = "  Aliyan  ";
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://aliyangohar.com/aliyan%20gohar";
+console.log(url.replace('aliyan%20gohar', 'aliyan'));
+
+console.log(url.includes('%20'));
+
+const newStringTwo = new String('Aliyan-Gohar');
+
+console.log(newStringTwo.split('-'));
