@@ -24,3 +24,10 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 
 // +++++++++++++++++++++++++ Maths +++++++++++++++++++++++++
+
+console.log(Math)
+console.log(Math.abs(-4)); // Changes negative values to positive.
+console.log(Math.round(4.5)); // Rounds decimal values to higher if greater than equal to five, else lower value.
+console.log(Math.ceil(4.1)); // Returns greater value even if not greater than or equal to five.
+console.log(Math.floor(4.9)); // Returns lower value even if greater than or equal to five.
+
