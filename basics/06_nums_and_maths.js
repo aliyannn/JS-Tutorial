@@ -33,10 +33,10 @@ console.log(Math.min(4, 3, 6, 8)); // Returns the minimum value
 console.log(Math.max(4, 3, 6, 8)); // Returns the maximum value
 
 console.log(Math.random());
-console.log(Math.random() + 1);
-console.log(Math.random() * 10);
-console.log(Math.random() * 10 + 1);
-console.log(Math.floor(Math.random() * 10) + 1);
+console.log(Math.random() + 1); // To Avoid the zero digit value
+console.log(Math.random() * 10); // To get the values between 0 to 10
+console.log(Math.random() * 10 + 1); // To avoid the zero digit value i.e. between 1 to 10
+console.log(Math.floor(Math.random() * 10) + 1); // To get the single (lowest) value
 
 const min = 10;
 const max = 20;
