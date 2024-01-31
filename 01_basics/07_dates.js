@@ -9,5 +9,5 @@ let myDate = new Date();
 // console.log(`toLocaleTimeString = ` + myDate.toLocaleTimeString());
 // console.log(`type of Date = ` + typeof myDate);
 
-let myCreatedDate = new Date(2024, 0, 31);
-console.log(myCreatedDate.toDateString())
+let myCreatedDate = new Date(2024, 0, 31, 17, 44);
+console.log(myCreatedDate.toLocaleString())
