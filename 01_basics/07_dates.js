@@ -1,9 +1,13 @@
 let myDate = new Date();
-console.log(myDate.toString());
-console.log(myDate.toISOString());
-console.log(myDate.toJSON());
-console.log(myDate.toDateString());
-console.log(myDate.toLocaleDateString());
-console.log(myDate.toLocaleString());
-console.log(myDate.toLocaleTimeString());
-console.log(typeof myDate);
+// console.log(myDate);
+// console.log("toString = " + myDate.toString());
+// console.log("toISoString = " + myDate.toISOString());
+// console.log(`toJSON = ` + myDate.toJSON());
+// console.log(`toDateString = ` + myDate.toDateString());
+// console.log(`toLocaleDateString = ` + myDate.toLocaleDateString());
+// console.log(`toLocaleString = ` + myDate.toLocaleString());
+// console.log(`toLocaleTimeString = ` + myDate.toLocaleTimeString());
+// console.log(`type of Date = ` + typeof myDate);
+
+let myCreatedDate = new Date(2024, 0, 31);
+console.log(myCreatedDate.toDateString())
